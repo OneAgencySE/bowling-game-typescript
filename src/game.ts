@@ -1,8 +1,9 @@
 export class Game {
-  roll(pins: number) {
-    return pins;
+  roll(pins: number): any {
+    throw new Error("Method not implemented.");
   }
-  getScore() {
-    return 0;
+
+  getScore(): any {
+    throw new Error("Method not implemented.");
   }
 }

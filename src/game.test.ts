@@ -6,10 +6,10 @@ describe("Bowling Game", () => {
     game = new Game();
   });
 
-  test('all rolls in the gutter', () => {
+  test("all rolls in the gutter", () => {
     const rolls = new Array(20);
     rolls.forEach(() => {
-        game.roll(0);
+      game.roll(0);
     });
 
     expect(game.getScore()).toBe(0);
